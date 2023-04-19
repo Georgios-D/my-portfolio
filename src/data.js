@@ -3,34 +3,34 @@ export const projects = [
         title: "Spotify Clone",
         subtitle: "Next.js",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "The Spotify clone consists of mostly React and Next.js. I've built this project using the Spotify API where you are able to log in using your own Spotify and choose your own playlists you've made. Play, pause, skip forward and backwards, shuffle and repeat songs however you like!",
         image: "Image",
-        link: "Link",
+        link: "https://darling-buttercream-1e396f.netlify.app/login",
     },
     {
         title: "Password Generator",
         subtitle: "JavaScript, HTML, CSS",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "This is one of my earliest projects. I created this project with a fellow student where we built the password generator using JavaScript. The generator is able to randomly display passwords and also shows the strength and integrity of the password",
         image: "Image",
-        link: "Link",
+        link: "https://cool-mochi-bcff79.netlify.app/",
     },
     {
         title: "Kanban Board Clone",
         subtitle: "React",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "Having trouble memorizing different chores or tasks you've had in mind? This Kanban clone is able to save your tasks in a great displayable card to where you can assign whether the tasks are Not started yet, Ongoing or Done.",
         image: "Image",
-        link: "Link",
+        link: "https://incredible-khapse-03bffd.netlify.app/",
     },
-    {
-        title: "Techhub aKa Stackoverflow Clone",
-        subtitle: "React",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "Image",
-        link: "Link",
-    },
+    // {
+    //     title: "Techhub aKa Stackoverflow Clone",
+    //     subtitle: "React",
+    //     description:
+    //         "Created a stackoverflow-esque clone that is able to display different questions and forms where you can answer said question. The project consisted of a lot of backend.",
+    //     image: "Image",
+    //     link: "Link",
+    // },
 ];
 
 export const testimonials = [

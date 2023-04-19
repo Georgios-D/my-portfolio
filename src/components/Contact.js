@@ -41,7 +41,7 @@ export default function Contact() {
                         style={{ filter: "opacity(0.7)" }}
                         src="https://www.google.com/maps/embed/v1/place?q=Tegvägen+44,+Järfälla,+Sweden&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
-                    <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+                    <div className="bg-gray-900 relative flex flex-wrap py-6 px-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 ADDRESS
@@ -74,9 +74,8 @@ export default function Contact() {
                         Hire Me
                     </h2>
                     <p className="leading-relaxed mb-5">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Illum suscipit officia aspernatur veritatis.
-                        Asperiores, aliquid?
+                        Interested in working with me? Send me an inquiry and we
+                        can talk more about how I can benefit your business!
                     </p>
                     <div className="relative mb-4">
                         <label
