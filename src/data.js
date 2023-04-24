@@ -7,7 +7,7 @@ export const projects = [
         image: "SpotifyGIF.gif",
         link: "https://darling-buttercream-1e396f.netlify.app/login",
         github1: "giticon.png",
-        githublink1: "https://github.com/Georgios-D/",
+        githublink1: "https://github.com/Georgios-D/spotify-clone",
     },
     {
         title: "Password Generator",
@@ -17,7 +17,7 @@ export const projects = [
         image: "PasswordgeneratorGIF.gif",
         link: "https://cool-mochi-bcff79.netlify.app/",
         github1: "giticon.png",
-        githublink1: "https://github.com/Georgios-D/",
+        githublink1: "https://github.com/Georgios-D/starter-code",
     },
     {
         title: "Kanban Board Clone",
@@ -27,7 +27,7 @@ export const projects = [
         image: "KanbanGIF.gif",
         link: "https://incredible-khapse-03bffd.netlify.app/",
         github1: "giticon.png",
-        githublink1: "https://github.com/Georgios-D/",
+        githublink1: "https://github.com/Georgios-D/kanban-board",
     },
     // {
     //     title: "Techhub aKa Stackoverflow Clone",
