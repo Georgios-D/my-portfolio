@@ -17,7 +17,7 @@ export default function Projects() {
                         developer! View at your leisure.
                     </p>
                 </div>
-                <div className="flex flex-wrap -m-4">
+                <div className="flex flex-wrap justify-center -m-4">
                     {projects.map((project) => (
                         <a
                             href={project.link}
@@ -30,7 +30,15 @@ export default function Projects() {
                                     className="absolute inset-0 w-full h-full object-cover object-center"
                                     src={project.image}
                                 />
-                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-90">
+                                    <a href={project.githublink1}>
+                                        <img
+                                            alt="Icon"
+                                            className="w-6 h-6 cursor-pointer transform 
+                                transition duration-500 hover:scale-110"
+                                            src={project.github1}
+                                        ></img>
+                                    </a>
                                     <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                                         {project.subtitle}
                                     </h2>
