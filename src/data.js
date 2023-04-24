@@ -4,7 +4,7 @@ export const projects = [
         subtitle: "Next.js",
         description:
             "The Spotify clone consists of mostly React and Next.js. I've built this project using the Spotify API where you are able to log in using your own Spotify and choose your own playlists you've made. Play, pause, skip forward and backwards, shuffle and repeat songs however you like!",
-        image: "Image",
+        image: "SpotifyGIF.gif",
         link: "https://darling-buttercream-1e396f.netlify.app/login",
     },
     {
@@ -12,15 +12,15 @@ export const projects = [
         subtitle: "JavaScript, HTML, CSS",
         description:
             "This is one of my earliest projects. I created this project with a fellow student where we built the password generator using JavaScript. The generator is able to randomly display passwords and also shows the strength and integrity of the password",
-        image: "Image",
+        image: "PasswordgeneratorGIF.gif",
         link: "https://cool-mochi-bcff79.netlify.app/",
     },
     {
         title: "Kanban Board Clone",
         subtitle: "React",
         description:
-            "Having trouble memorizing different chores or tasks you've had in mind? This Kanban clone is able to save your tasks in a great displayable card to where you can assign whether the tasks are Not started yet, Ongoing or Done.",
-        image: "Image",
+            "Having trouble memorizing different chores or tasks you've had in mind? This Kanban clone is able to save your tasks in a great displayable card to where you can assign whether the tasks are Todo, Doing or Done.",
+        image: "KanbanGIF.gif",
         link: "https://incredible-khapse-03bffd.netlify.app/",
     },
     // {
