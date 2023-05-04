@@ -12,10 +12,9 @@ export default function Skills() {
                         Skills &amp; Technologies
                     </h1>
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        The skills I've aquired through my education. You might
-                        see some room I've left over, well they're there because
-                        I have still so much to learn and I would love to add
-                        even more to the list!
+                        The skills I've aquired throughout my time as a
+                        developer. I've got a long way still and will be adding
+                        more to the table!
                     </p>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

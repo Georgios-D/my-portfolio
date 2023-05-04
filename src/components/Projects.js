@@ -17,40 +17,37 @@ export default function Projects() {
                         developer! View at your leisure.
                     </p>
                 </div>
-                <div className="flex flex-wrap justify-center -m-4">
+                <div className="flex xl:flex-row sm:flex-col sm:items-center -m-4 justify-center">
                     {projects.map((project) => (
-                        <a
-                            href={project.link}
-                            key={project.image}
-                            className="sm:w-1/2 w-100 p-4"
+                        <div
+                            onClick={() => {
+                                //redirect to project.link
+                                window.location.href = project.link;
+                            }}
+                            className="flex flex-col items-center justify-center p-4 cursor-pointer relative"
                         >
-                            <div className="flex relative">
-                                <img
-                                    alt="gallery"
-                                    className="absolute inset-0 w-full h-full object-cover object-center"
-                                    src={project.image}
-                                />
-                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-90">
-                                    <a href={project.githublink1}>
-                                        <img
-                                            alt="Icon"
-                                            className="w-6 h-6 cursor-pointer transform 
-                                transition duration-500 hover:scale-110"
-                                            src={project.github1}
-                                        ></img>
-                                    </a>
-                                    <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                                        {project.subtitle}
-                                    </h2>
-                                    <h1 className="title-font text-lg font-medium text-white mb-3">
-                                        {project.title}
-                                    </h1>
-                                    <p className="leading-relaxed">
-                                        {project.description}
-                                    </p>
-                                </div>
+                            <img
+                                src={project.image}
+                                alt="project"
+                                className="w-80 h-80 object-fill rounded-lg shadow-md"
+                            />
+                            <div className="flex flex-col items-center justify-center p-4 absolute opacity-0 hover:opacity-90 bg-gray-900 h-full border-4 border-gray-800">
+                                <a href={project.githublink1}>
+                                    <img
+                                        alt="Icon"
+                                        className="w-6 h-6 cursor-pointer transform transition duration-500 hover:scale-110"
+                                        src={project.github1}
+                                    />
+                                </a>
+                                <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                                    {project.subtitle}
+                                </h2>
+                                <h1 className="text-font text-lg font-medium">
+                                    {project.title}
+                                </h1>
+                                <p>{project.description}</p>
                             </div>
-                        </a>
+                        </div>
                     ))}
                 </div>
             </div>

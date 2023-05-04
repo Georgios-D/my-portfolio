@@ -41,10 +41,10 @@ export const projects = [
 
 export const testimonials = [
     {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-        image: "Image",
-        name: "Name",
-        company: "Company",
+        quote: "I had the privilege of being a mentor to Georgios at Techover Academy, where I got to see him build and develop impressive systems. Georgios is a skilled web developer with the ability to quickly understand new technologies and implement them efficiently. I am convinced that Georgios will be an asset to any organization seeking a skilled web developer.",
+        image: "square.png",
+        name: "Matt Bergström",
+        company: "CTO, Techover",
     },
     {
         quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
@@ -54,4 +54,11 @@ export const testimonials = [
     },
 ];
 
-export const skills = ["JavaScript", "React", "Next.js", "Node", "TypeScript"];
+export const skills = [
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Node",
+    "TypeScript",
+    "MongoDB",
+];
