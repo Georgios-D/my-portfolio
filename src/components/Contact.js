@@ -18,13 +18,30 @@ export default function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        fetch("/", {
+        alert("Sending email now...");
+        console.log(process.env.REACT_APP_SECRET);
+        let data = {
+            service_id: process.env.REACT_APP_SECRET,
+            template_id: process.env.REACT_APP_TEMPLATE,
+            user_id: process.env.REACT_APP_USER,
+            template_params: {
+                from_name: name,
+                user_email: email,
+                message: message,
+            },
+        };
+
+        fetch("https://api.emailjs.com/api/v1.0/email/send", {
             method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contact", name, email, message }),
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
         })
-            .then(() => alert("Message sent!"))
-            .catch((error) => alert(error));
+            .then((result) => {
+                console.log("Email sent successfully!");
+            })
+            .catch((error) => console.log(error));
     }
     return (
         <section id="contact" className="relative">
