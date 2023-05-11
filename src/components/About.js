@@ -12,8 +12,7 @@ export default function About() {
                     </h1>
                     <p className="mb-8 leading-relaxed">
                         As a React developer, I love creating new and innovative
-                        projects where the sky is the limit and I am able to
-                        have fun while working.
+                        projects!
                     </p>
                     <div className="flex justify-center">
                         <a

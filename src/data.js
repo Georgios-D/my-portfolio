@@ -50,7 +50,7 @@ export const testimonials = [
         quote: "I am delighted to write this testimonial for Georgios, with whom I had the pleasure of working in a challenging environment where innovative solutions were required. During our collaboration, Georgios consistently demonstrated a unique combination of intelligence, creativity, and dedication, which greatly impressed me. I am sure Georgios will be a great contribution to any company he works for in the future.",
         image: "Triangle1.png",
         name: "Nessim Bakir",
-        company: "CTO WastePick",
+        company: "CTO, WastePick",
     },
 ];
 
