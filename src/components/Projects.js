@@ -17,7 +17,7 @@ export default function Projects() {
                         developer! View at your leisure.
                     </p>
                 </div>
-                <div className="flex xl:flex-row sm:flex-col sm:items-center -m-4 justify-center">
+                <div className="flex xl:flex-row flex-col sm:items-center -m-4 justify-center">
                     {projects.map((project) => (
                         <div
                             onClick={() => {
