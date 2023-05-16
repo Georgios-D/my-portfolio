@@ -1,24 +1,17 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 export default function Contact() {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [message, setMessage] = React.useState("");
 
-    function encode(data) {
-        return Object.keys(data)
-            .map(
-                (key) =>
-                    encodeURIComponent(key) +
-                    "=" +
-                    encodeURIComponent(data[key])
-            )
-            .join("&");
-    }
-
     function handleSubmit(e) {
         e.preventDefault();
-        alert("Sending email now...");
+        if (!name || !email || !message) {
+            toast.error("Please enter a name, email and message");
+            return;
+        }
         console.log(process.env.REACT_APP_SECRET);
         let data = {
             service_id: process.env.REACT_APP_SECRET,
@@ -39,7 +32,7 @@ export default function Contact() {
             body: JSON.stringify(data),
         })
             .then((result) => {
-                console.log("Email sent successfully!");
+                toast("Email successfully sent!");
             })
             .catch((error) => console.log(error));
     }
