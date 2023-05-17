@@ -12,7 +12,6 @@ export default function Contact() {
             toast.error("Please enter a name, email and message");
             return;
         }
-        console.log(process.env.REACT_APP_SECRET);
         let data = {
             service_id: process.env.REACT_APP_SECRET,
             template_id: process.env.REACT_APP_TEMPLATE,
